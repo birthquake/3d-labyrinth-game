@@ -102,7 +102,7 @@ function App() {
   return (
     <>
       <Canvas
-        camera={{ position: [0, 6, 4], fov: 75 }}
+        camera={{ position: [0, 10, 0], fov: 50 }}
         style={{ background: 'linear-gradient(to bottom, #87CEEB 0%, #98FB98 100%)' }}
       >
         <ambientLight intensity={0.6} />
