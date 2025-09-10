@@ -152,8 +152,8 @@ function Ball({ position, permissionGranted }) {
   useFrame(() => {
     if (ref.current) {
       const ballPos = ref.current.position
-      const goalX = 2.5  // Updated for smaller maze
-      const goalZ = 2.5  // Updated for smaller maze
+      const goalX = 1    // Updated for 6x6 maze
+      const goalZ = 1    // Updated for 6x6 maze
       
       const distance = Math.sqrt(
         Math.pow(ballPos.x - goalX, 2) + Math.pow(ballPos.z - goalZ, 2)
